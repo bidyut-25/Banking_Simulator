@@ -1,7 +1,7 @@
-Zenith Core Banking - A Python Streamlit Simulation
+Banking Simulator - A Python Streamlit Simulation
 ===================================================
 
-Welcome to Zenith Core Banking, a comprehensive simulation of a mini core banking system built entirely in Python using the Streamlit framework and an SQL backend. This application provides a dual-interface system for both customers and bank staff, demonstrating key banking operations, ACID-compliant transactions, and automated financial reporting.
+Welcome to Banking Simulator, a comprehensive simulation of a mini core banking system built entirely in Python using the Streamlit framework and an SQL backend. This application provides a dual-interface system for both customers and bank staff, demonstrating key banking operations, ACID-compliant transactions, and automated financial reporting.
 
 ✨ Features
 ----------
@@ -56,56 +56,7 @@ This project is a single-file, fully functional application with a robust set of
 
 -   Modular Code: Despite being a single file, the code is organized into logical sections for the database, security, UI components, and business logic.
 
--   Modern UI/UX: Styled with custom CSS injected into Streamlit for a clean, professional, and user-friendly interface.
-
-🚀 How to Run the Application
------------------------------
-
-This project is easy to set up and run. All you need is Python and a few standard packages.
-
-### Prerequisites
-
--   Python 3.8+
-
--   pip (Python package installer)
-
-### Installation
-
-1.  Clone the repository (or save the core_banking_app.py file):\
-    git clone [https://github.com/your-username/core-banking-system.git](https://github.com/your-username/core-banking-system.git)\
-    cd core-banking-system
-
-2.  Create a virtual environment (recommended):\
-    python -m venv venv\
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-3.  Install the required packages:\
-    pip install streamlit pandas faker
-
-### Running the App
-
-1.  Navigate to the directory containing core_banking_app.py.
-
-2.  Run the following command in your terminal:\
-    streamlit run core_banking_app.py
-
-3.  Your web browser will automatically open a new tab with the application running.
-
-### Default Login Credentials
-
-The application generates synthetic data on its first run, including default credentials to get you started.
-
-Bank Staff:
-
--   Username: admin
-
--   Password: adminpass
-
-Customers:
-
--   Email: john.doe0@email.com, jane.smith1@email.com, etc.
-
--   Password: custpass0, custpass1, etc. (The number corresponds to the customer's generated ID).
+-   Modern UI/UX: Styled with custom CSS injected into Streamlit for a clean, professional, and user-friendly interface
 
 🗃️ Database Schema
 -------------------
